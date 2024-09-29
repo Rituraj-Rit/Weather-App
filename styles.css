@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.all {
+    display: flex;
+}
+
+.main1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 15px gray;
+
+}
+
+
+h1 {
+    background: #181824;
+    background: linear-gradient(to bottom right, #242c42 29%, #9E3212 69%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 4px rgb(70, 45, 45);
+    font-style: italic;
+
+}
+
+.main2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-wrap {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 10px 10px 15px gray, inset 10px 10px 15px rgb(207, 187, 187);
+    transition-duration: 0.2s;
+
+}
+
+.app-wrap:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    margin-top: 10px;
+    background: #F8FFE8;
+    background: linear-gradient(to right, #000000 0%, #2d3023 2%, #282c42 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-box {
+    display: block;
+    color: rgb(34, 34, 34);
+    background: linear-gradient(142.99deg, rgba(217, 217, 217, 0.63) 15.53%, rgba(243, 243, 243, 0.63) 88.19%);
+    box-shadow: 0px 12px 24px -1px rgba(0, 0, 0, 0.18);
+    border-color: rgba(7, 4, 14, 0);
+    border-radius: 50px;
+    block-size: 20px;
+    margin: 10px auto;
+    padding: 18px 15px;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.search-box:hover {
+    width: 240px;
+}
+
+.search-box:focus {
+    width: 280px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city {
+    font-size: 50px;
+    margin-top: 20px;
+    background: #FF0000;
+    background: linear-gradient(to left, #8d2d2d 0%, #000000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.date {
+    font-size: 25px;
+    margin-top: 18px;
+    background: #A7CFDF;
+    background: linear-gradient(to right, #21292c 0%, #23538A 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.temp {
+    font-size: 75px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: 0.2s;
+}
+
+.temp:hover {
+    transform: scale(1.1);
+}
+
+.weather {
+    font-size: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background: #A7CFDF;
+    background: linear-gradient(to right, #21292c 0%, #27394e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hi-low {
+    font-size: 40px;
+    margin-top: 30px;
+    background: #959595;
+    background: linear-gradient(to right, #443d3d 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
